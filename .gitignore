@@ -1,3 +1,7 @@
+# with svn
+.svn
+build
+
 # Compiled Object files
 *.slo
 *.lo
