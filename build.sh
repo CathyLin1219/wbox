@@ -33,4 +33,5 @@ if [ -d "$WBOX_BUILD_DIR" ]; then
         [ -n "$OPT_INSTALL_DIR" ] && make install
         cp *.tar.* "$WBOX_RELEASE_DIR"
     popd >/dev/null
+    rm -rf "$WBOX_BUILD_DIR"
 fi
